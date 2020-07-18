@@ -10,7 +10,8 @@ public class Amazonhome {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\JaJa\\eclipse-workspace\\selenium.mavenprojects\\Driver\\chromedriver.exe");
 
 		WebDriver driver=new ChromeDriver();
-				String url = "https:\\www.amazon.com";
+			//	 String url = "https:\\www.amazon.com";
+		 String url = "https:\\www.Facebook.com";
 		driver.get(url);
 		
 		driver.quit();
